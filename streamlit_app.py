@@ -389,3 +389,16 @@ with st.expander("⚙️ 커스터마이즈 방법"):
 - **UI 색상:** 상단 CSS의 `--retro-*` 변수 조정  
 - **주의:** 이 앱은 재미/자기이해용 도구로, 과학적 진단 대신 **학습 전략 인사이트** 제공을 목표로 합니다.
 """)
+# 앱 코드 제일 마지막 부분에 추가
+st.markdown(
+    """
+    <hr style="margin-top:50px; margin-bottom:10px; border: 1px solid #334155;">
+    <div style='text-align: center; font-size: 12px; color: #94a3b8;'>
+        © 2025 이대형. All rights reserved.<br>
+        <a href="https://aicreatorz.netlify.app/" target="_blank" style="color:#22d3ee; text-decoration: none;">
+            https://aicreatorz.netlify.app/
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
